@@ -11,7 +11,7 @@ Getting Started
 
 Copy files to and from Rackspace CloudFiles using the above URLs.
 
-To configure you can create a ~/.cloudfiles.js config javascript:
+To configure you can create a ~/.cfcprc config javascript:
 
 	module.exports = {
 		cf: {
