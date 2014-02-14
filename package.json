@@ -3,7 +3,7 @@
 	"name": "cfcp",
 	"license" : "MIT",
 	"description": "CloudFiles Copy",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"repository": {
 		"url": "http://github.com/cthulhuology/cfcp"
 	},
