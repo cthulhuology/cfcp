@@ -1,3 +1,10 @@
 #!/usr/bin/env node
 
-require('cfcp')()
+if (process.argv.length < 4) {
+	console.log("Usage: " + process.argv[1] + " file1 file2") 
+	process.exit(0)
+}
+
+configs = require( process.env['HOME'] + "/.cfrc")
+
+require('cfcp').apply(global,[ process.argv[2], process.argv[3], configs]);
